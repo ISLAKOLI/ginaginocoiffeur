@@ -1,0 +1,144 @@
+
+.service .vertical-item .item-content h3 {margin-bottom:15px;}
+.service .vertical-item .item-content p {margin-bottom: 20px;}
+.retourausite {position:absolute; right:70px; top:5px; font-size:16px; z-index:999;}
+.main-gallery .isotope-wrapper .vertical-item .media-links {z-index:99}
+
+.boxed .page_header a.logo img, .page_header.affix a.logo img {
+    max-height: 65px!important;
+}
+
+.page-salon-top.grisfonce:before {background-color: #666666; opacity: 0.8;}
+.page-salon-top.grisfonce h1 {color:#8bc2cd!important;}  
+
+.page-salon-top.grisclair:before {background-color: #eeeeee!important; opacity: 0.8;}
+.page-salon-top.grisclair h1 {color:#8bc2cd!important;}
+
+.page-salon-top.blanc:before {background-color: #ffffff!important; opacity: 0.4;}
+.page-salon-top.blanc h1 {color:#000000!important;}
+
+.page-salon-top.nofilter:before {opacity: 0;}
+.page-salon-top.nofilter h1 {color:#000000!important;text-shadow: 0 0 7px rgba(255, 255, 255, 0.45);}
+
+.page-salon-top.txtdore h1 {color:#D29F60!important;}
+.page-salon-top.txtbleu h1 {color:#8BD4E2!important;}
+.page-salon-top.txtblanc h1 {color:#ffffff!important;}
+.page-salon-top.txtnoir h1 {color:#000000!important;}  
+
+.owl-carousel .owl-stage-outer {
+         margin-left: 0px;
+         margin-right: 0px;
+         padding-left:0px;
+         padding-right:0px;
+}
+
+.form-group .fa {top:33px;}
+
+.hello {overflow:hidden;}
+
+.plandusite li a {font-weight:700}
+.plandusite li ul li a {font-weight:normal;}
+
+.franchiseoutils li  {margin-bottom:15px;}
+.franchiseoutils li p {margin-bottom:0px;}
+.franchiseoutils li .description {font-size:14px;}
+.franchiseoutils li a {font-size:14px;}
+
+.bonsdecommande h5 {margin-bottom:15px;}
+.bonsdecommande .control-label {margin-bottom:0px; font-size:14px;}
+.bonsdecommande .form-control {height: inherit; padding-left:20px;}
+.bonsdecommande select {height:50px;}
+
+.formations p {margin-bottom:10px;}
+
+.fournisseur .cattype {font-size:18px; font-weight:700; margin-bottom:10px; background:#eeeeee; padding:3px 15px;}
+.fournisseur .item {margin-bottom:15px; padding-left:15px;}
+.fournisseur .txtdore {color:#D29F60!important; font-size:22px;}
+.fournisseur .lineheight {line-height: 25px;}
+
+.avis_table th {
+    border:1px solid #e1e1e1;
+    color: #323232;
+    font-family: "Vidaloka", serif;
+    font-family: "Poppins", sans-serif !important;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.avis_table td { border: 1px solid #e1e1e1;text-align: center;}
+
+table.padding-2 td {padding:2px 8px;}
+
+@media (max-width: 1199px) {
+    .espacefranchiseheaderres {display:block!important;}
+    .espacefranchiseheader {display:none!important;}
+    .menufranchise a {line-height:20px;}
+    .nav .espacemenu {display:block!important;}
+    a.logo img {max-height: 55px!important;}
+    .retourausite {top: 50px; left: 15px; right: auto;}
+    .menufranchise ul {padding-top:30px;}
+
+}
+
+@media (max-width: 1199px) {
+    .salonlist .salonitem {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .salonlist .salonitem .item-content {
+        margin-left:0px!important;
+        margin-right:0px!important;
+        max-width:100%!important;
+    }
+    
+    .salonlist .salonitem .text-left {
+        text-align:center!important;
+        margin-top:15px!important;
+
+    }
+    .salonlist .salonitem .pull-right {
+        float:inherit;
+    }
+    
+    .salonlist .salonitem .pull-right img {
+        width:100px!important;
+        margin: 10px auto;
+    }
+    
+    .searchsalon .col-12, .searchsalon .form-group {
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 100%!important;
+    }
+    
+}
+
+
+@media (max-width: 968px) {
+    .page_slider .intro_featured_word {font-size:90px!important}
+    .page_slider .intro_after_featured_word {font-size:50px!important;}
+}
+
+
+@media (max-width: 576px) {
+    .page_slider .intro_featured_word {font-size:50px!important}
+    .page_slider .intro_after_featured_word {font-size:30px!important;}
+
+    .specialnomargin  {
+        margin-right:0px!important;
+        margin-left:0px!important;
+    }
+    .specialnopadding, .specialnopadding > [class*="col-"] {
+        padding-left:0px!important;
+        padding-right: 0px!important;
+    }
+
+    .avis_table .product-name {font-size:12px!important;}
+    .avis_table td {max-width:90px!important;}
+}
